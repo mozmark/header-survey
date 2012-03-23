@@ -1,0 +1,9 @@
+This is an attempt at a simple header survey script. It expects a host list with lines of the form rank,host:
+
+e.g:
+1,google.com
+2,facebook.com
+...etc
+
+run like this:
+./header-survey.py hostlist
