@@ -5,5 +5,7 @@ e.g:
 2,facebook.com
 ...etc
 
+You can get a host list from Alexa (http://www.alexa.com/topsites).
+
 run like this:
 ./header-survey.py hostlist
