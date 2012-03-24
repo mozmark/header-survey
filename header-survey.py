@@ -32,7 +32,8 @@ class HeaderFetcher:
 				if 301 == res.status or 302 == res.status:
 					redirect_url = res.getheader('Location')
 					if not redirect_url in self.report:
-						self.fetchheaders(redirect_url,req_headers)
+						if len(self.report.keys())<40:
+							self.fetchheaders(redirect_url,req_headers)
 		except:
 			print 'problem loading',url
 
